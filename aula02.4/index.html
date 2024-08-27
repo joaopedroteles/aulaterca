@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Medida de Temperatura</title>
+</head>
+<body>
+    <h1>Conversor de Medida de Temperatura</h1>
+    <label for="temp">Temperatura:</label>
+    <input type="number" id="temp" placeholder="temperatura?">
+    <br>
+    <label for="conversao">Converter p:</label>
+    <select id="conversao">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+    </select>
+    <br>
+    <button onclick="converterTemperatura()">Converter</button>
+    <p id="resultado"></p>
+    <script src="script.js"></script>
+</body>
+</html>
